@@ -1,0 +1,60 @@
+.modou{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    .body {font-family: roboto, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+    .a {text-decoration : none;}
+    
+    .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: #000000;
+    }
+    
+    
+    .navbar ul {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+    } 
+    
+    .logo_title .navbar ul li  a h1 {color: #ffffff; }
+    
+    .navbar  ul li a {
+    padding: 12px;
+    margin: 0 6PX;
+    }
+    .navbar ul li a:hover{
+        color: #000000;
+        background-color: #ffb42f;
+        border-radius: 4px;
+    }
+
+h2{
+text-align: center;
+text-decoration:turquoise;
+font-weight: bold ;
+background-color:red ;
+color: #fff;
+padding: 1px;
+}
+
+.box{  
+width: 98%;
+background-color: beige;
+color: black; 
+}
+
+.dex{
+    text-align: center;
+    background-color: #fff;
+    color: #1059;
+    padding: 2px;
+}
