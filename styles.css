@@ -20,22 +20,50 @@
     
     
     .navbar ul {
-        display: flex;
+        
         align-items: center;
         list-style-type: none;
+        color: #ffffff;
     } 
     
-    .logo_title .navbar ul li  a h1 {color: #ffffff; }
-    
-    .navbar  ul li a {
+.logo_title .navbar ul li  a h1 {color: #ffffff; }
+
+.navbar  ul li {
+color: #ffffff;
+background-color: #0f0e0e;
+}
+
+.nv{
+color: #f6efef;
+border-radius: 4px;
+display: inline;
+list-style: none;
+text-decoration: none;
+
+}
+
+a{
+    color: #fff;
+}
+
+a:hover{
+    color: #fff;
+    background-color: rgb(175, 115, 12);
     padding: 12px;
     margin: 0 6PX;
-    }
-    .navbar ul li a:hover{
-        color: #000000;
-        background-color: #ffb42f;
-        border-radius: 4px;
-    }
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+
+.logo_title{
+color: #fff;
+list-style: none;
+text-decoration: none;
+
+}
+
 
 h2{
 text-align: center;
